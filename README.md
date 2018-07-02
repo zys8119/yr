@@ -1,8 +1,8 @@
-# baobei
+# 融合
 
-#### 保呗分期
+#### 融合
 
->宝贝分期：基于vue的app项目
+>融合：基于vue的app项目
 
 ## Build Setup
 

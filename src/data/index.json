@@ -1,0 +1,7 @@
+{
+  "channelList":[
+    {"name":"全部可见","value":"0"},
+    {"name":"房东可见","value":"1"},
+    {"name":"租户可见","value":"2"}
+  ]
+}

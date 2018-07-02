@@ -1,0 +1,85 @@
+//todo css重置
+@import "./reset.less";
+//todo vars变量
+//color
+@import "./color.less";
+#app{
+  //todo 公共重置
+  .login-x-input{
+    background-color: @cor_e5e5e5;
+    margin-bottom: 20px;
+    &:before{
+      color: transparent;
+      border-color: transparent;
+      border-top-color: transparent;
+    }
+  }
+  .login-x-button{
+    background-color: @theme-color;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 50px;
+    &:active{
+      background-color: @theme-color/0.9;
+    }
+  }
+  .x-button-type1{
+    padding: 0 @paIndex;
+    .weui-btn_default{
+      .login-x-button;
+      margin-top: @paIndex;
+      margin-bottom: 50px;
+    }
+    .weui-btn{
+      border-radius: 50px;
+    }
+  }
+  .login-group{
+    padding: 20px 0;
+    .vux-no-group-title{
+      margin: 0;
+      background-color: transparent;
+      &:after{
+        border: none;
+      }
+      &:before{
+        border: none;
+      }
+    }
+
+  }
+  .login-flexbox{
+    font-size: 12px;
+    margin-bottom: 20px;
+    .right{
+      text-align: right;
+    }
+  }
+  //todo 模块重置
+  .Login{
+
+  }
+  //动画效果
+  @-webkit-keyframes rotatefresh {
+    0%{
+        transform: rotate(0deg);
+    }
+  
+    100%{
+        transform: rotate(180deg);
+        transition-duration: 0.6s;
+        transition: 0.6s;
+    }
+  }
+@keyframes rotatefresh {
+  0%{
+      transform: rotate(0deg);
+  }
+
+  100%{
+      transform: rotate(180deg);
+      transition-duration: 0.6s;
+      transition: 0.6s;
+  }
+}
+}
